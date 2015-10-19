@@ -8,6 +8,7 @@ package edu.towson.cosc237;
 /**
  *
  * @author skaza
+ * Modified from http://examples.javacodegeeks.com/core-java/util/arraylist/arraylist-in-java-example-how-to-use-arraylist/
  */
 import java.util.*;
 
@@ -20,10 +21,10 @@ public class ArrayListExercise {
 		// Adding items to arrayList
 		list.add("Item1");
 		list.add("Item2");
-		list.add(2, "Item3"); // it will add Item3 to the third position of
-								// array list
+		list.add(2, "Item3"); // it will add Item3 to the third position of array list
 		list.add("Item4");
 
+                
 		// Display the contents of the array list
 		System.out.println("The arraylist contains the following elements: "
 				+ list);
