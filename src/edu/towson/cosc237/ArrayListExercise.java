@@ -36,7 +36,7 @@ public class ArrayListExercise {
 		System.out.println("The arraylist after sorting contains the following elements: "
 				+ list);
                 
-                /*
+                
 		// Checking index of an item
 		int pos = list.indexOf("Item2");
 		System.out.println("The index of Item2 is: " + pos);
@@ -97,6 +97,6 @@ public class ArrayListExercise {
 		System.out.println("The array created after the conversion of our arraylist is: "
 						+ Arrays.toString(simpleArray));
                 
-                */
+                
 	}
 }
