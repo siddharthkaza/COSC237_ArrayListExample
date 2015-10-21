@@ -21,14 +21,22 @@ public class ArrayListExercise {
 		// Adding items to arrayList
 		list.add("Item1");
 		list.add("Item2");
-		list.add(2, "Item3"); // it will add Item3 to the third position of array list
+		list.add(1, "Item3"); // it will add Item3 to the second position of array list
 		list.add("Item4");
 
                 
 		// Display the contents of the array list
 		System.out.println("The arraylist contains the following elements: "
 				+ list);
-
+                
+                
+                list.sort(null);
+                
+                // Display the contents of the array list
+		System.out.println("The arraylist after sorting contains the following elements: "
+				+ list);
+                
+                /*
 		// Checking index of an item
 		int pos = list.indexOf("Item2");
 		System.out.println("The index of Item2 is: " + pos);
@@ -88,5 +96,7 @@ public class ArrayListExercise {
 		String[] simpleArray = list.toArray(new String[list.size()]);
 		System.out.println("The array created after the conversion of our arraylist is: "
 						+ Arrays.toString(simpleArray));
+                
+                */
 	}
 }
